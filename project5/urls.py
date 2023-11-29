@@ -21,4 +21,5 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('down/',down,name='down'),
+    path('btsrp',btsrp,name='btsrp'),
 ]
